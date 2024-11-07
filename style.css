@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+}
+
+form input, .procura {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 7px;
+}
+
+form input[type="submit"] {
+    padding: 5px;
+    width: 70%;
+    margin: 20px auto;
+    font-size: 18px;
+    background-color: rgb(49, 203, 217);
+    color: rgb(39, 39, 40);
+    font-size: 20px;
+}
+
+div {
+    width: 100%;
+}
+
+div input {
+    width: 45%;
+
+}
+
+select {
+    width: 20%;
+}
+
+
+.anuidade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+input[type="checkbox"]{
+    padding: 5px;
+    width: 25%;
+}
+
+form strong {
+    width: 25%;
+}
+
+b {
+    font-size: 25px;
+}
+
+.info-associado {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.indica-devedor {
+    color: firebrick;
+}
+
+.indica-pagador {
+    color: green;
+}
+
+.main {
+    width: 50%;
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
